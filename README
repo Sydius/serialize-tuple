@@ -1,0 +1,1 @@
+Include this file and you can serialize C++0x tuples using boost serialization.

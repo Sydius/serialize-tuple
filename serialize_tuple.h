@@ -49,6 +49,9 @@ struct Serialize<0>
     template<class Archive, typename... Args>
     static void serialize(Archive & ar, std::tuple<Args...> & t, const unsigned int version)
     {
+        (void) ar;
+        (void) t;
+        (void) version;
     }
 };
 
